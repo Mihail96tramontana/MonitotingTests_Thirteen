@@ -1,9 +1,6 @@
 package aq.guru.jenkins;
 
-import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
@@ -35,7 +32,8 @@ public class JenkinsTest extends TestBase{
         $(byText("10")).click();
         //(календарь)
         $("#uploadPicture").uploadFile(new File("src/test/resources/1.jpg")); // загрузка файла
-        $("#subjectsInput").setValue("Maths").pressEnter();
+        $("#subjectsInput").sendKeys("Maths");
+        $("#subjectsInput").pressEnter();
         //$(byText("Maths")).pressEnter();
         $("#react-select-3-input").val("NCR").pressEnter();
         $("#react-select-4-input").val("Noida").pressEnter();
