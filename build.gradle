@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id "io.qameta.allure" version "2.10.0"
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+
+allure {
+    report {
+        version.set("2.18.1") //версия Allure Report (https://github.com/allure-framework/allure2)
+    }
+    adapter {
+        aspectjWeaver.set(true) // обработка аннотации @Step
+        frameworks {
+            junit5 {
+                adapterVersion.set("2.18.1") //версия Allure JUnit5 (https://github.com/allure-framework/allure-java)
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation ('org.junit.jupiter:junit-jupiter:5.8.2',
+            'com.google.guava:guava:31.1-jre',
+            'io.qameta.allure:allure-selenide:2.18.1',
+            'com.codeborne:selenide:6.6.2')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.6.0')
+}
+
+test {
+    useJUnitPlatform()
+}
