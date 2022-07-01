@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280e3a77-c572-47dc-9850-1872b9dbf90b" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/4a42690d58e672222b251c057b8e618f.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/JenkinsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/JenkinsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java" afterDir="false" />
@@ -70,14 +69,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.Jenkins1_Eleven [allureServe]">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qwerty\IdeaProjects\Jenkins1_Eleven\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.JenkinsTest.successfulTest">
     <configuration name="Jenkins1_Eleven [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Jenkins1_Eleven [allureServe]" />
         <item itemvalue="Gradle.JenkinsTest.successfulTest" />
+        <item itemvalue="Gradle.Jenkins1_Eleven [allureServe]" />
         <item itemvalue="Gradle.Jenkins1_Eleven [allureReport]" />
         <item itemvalue="Gradle.Jenkins1_Eleven [downloadAllure]" />
       </list>
@@ -196,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656598612245</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1656607890622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656607890622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
