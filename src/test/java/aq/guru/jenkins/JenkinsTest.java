@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 public class JenkinsTest extends TestBase{
 
     @Test
-    @Tag("Hello")
+    @Tag("hello")
     void successfulTest() {
 
         step("Открытие формы регистрации", () -> {
