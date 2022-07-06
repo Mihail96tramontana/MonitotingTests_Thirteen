@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280e3a77-c572-47dc-9850-1872b9dbf90b" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/credentials.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +284,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657131908710</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test">
+      <created>1657132644937</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657132644937</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test">
+      <created>1657132759952</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657132759952</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test">
+      <created>1657132921675</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657132921675</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
