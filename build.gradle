@@ -54,3 +54,8 @@ tasks.withType(Test) {
         }
     }
 }
+
+    tasks.withType("hello_test") {
+        systemProperties(System.getProperties())
+        useJUnitPlatform()
+    }
