@@ -1,5 +1,6 @@
 package aq.guru.jenkins;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import java.io.File;
 
@@ -11,6 +12,7 @@ import static io.qameta.allure.Allure.step;
 public class JenkinsTest extends TestBase{
 
     @Test
+    @Tag("Hello")
     void successfulTest() {
 
         step("Открытие формы регистрации", () -> {
