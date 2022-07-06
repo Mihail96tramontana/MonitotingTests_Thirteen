@@ -8,7 +8,6 @@ public class SystemPropertiesTests {
     @Test
     @Tag("hello")
     void someTest7(){
-
         System.out.println("Hello " + System.getProperty("anyText")); // any text
 
         //gradle clean properties_test6 hello_test -DanyText=world!
