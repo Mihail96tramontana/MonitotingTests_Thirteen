@@ -8,10 +8,11 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class TestBase {
+    static String url = "";
 
     @BeforeAll
     static void testAllureScenariy() {
@@ -22,7 +23,8 @@ public class TestBase {
 
         SelenideLogger.addListener("allure", new AllureSelenide()); //скрипт для древовидной структуры шагов в Allure Report
 
-        Configuration.remote = "https://" + config.login() + ":" + config.password() + "@" + System.getProperty("url"); //скрипт для удалённого запуска на Selenoid
+        url = "https://" + config.login() + ":" + config.password() + "@" + System.getProperty("url");
+        Configuration.remote = url; //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = System.getProperty("url"); //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub"; //скрипт для удалённого запуска на Selenoid
 
@@ -39,5 +41,10 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
+    }
+
+    @BeforeEach
+    void addSittap() {
+        Attach.attachAsText("url: ", url);
     }
 }
