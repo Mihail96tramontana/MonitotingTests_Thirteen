@@ -21,7 +21,7 @@ public class TestBase {
         TestConfig config = ConfigFactory.create(TestConfig.class);
 
         Configuration.baseUrl = "https://demoqa.com"; //скрипты для разрешения окна браузер
-        browserSize = "1920x1080";
+
 
         SelenideLogger.addListener("allure", new AllureSelenide()); //скрипт для древовидной структуры шагов в Allure Report
 
