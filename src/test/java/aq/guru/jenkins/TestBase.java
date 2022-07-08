@@ -11,6 +11,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import static com.codeborne.selenide.Configuration.browserSize;
+
 public class TestBase {
     static String url = "";
 
@@ -19,7 +21,7 @@ public class TestBase {
         TestConfig config = ConfigFactory.create(TestConfig.class);
 
         Configuration.baseUrl = "https://demoqa.com"; //скрипты для разрешения окна браузер
-        Configuration.browserSize = "1920x1080";
+        browserSize = "1920x1080";
 
         SelenideLogger.addListener("allure", new AllureSelenide()); //скрипт для древовидной структуры шагов в Allure Report
 
@@ -27,6 +29,12 @@ public class TestBase {
         Configuration.remote = url; //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = System.getProperty("url"); //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub"; //скрипт для удалённого запуска на Selenoid
+        Configuration.browser = System.getProperty("browser");
+        Configuration.browserVersion = System.getProperty("browserVersion");
+        browserSize = System.getProperty(browserSize);
+
+
+
 
         //скрипты для Selenoid с ключами
         DesiredCapabilities capabilities = new DesiredCapabilities(); //задали объект
