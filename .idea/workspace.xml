@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280e3a77-c572-47dc-9850-1872b9dbf90b" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/allure-notifications-4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/commands.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,18 +69,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/qwerty/IdeaProjects/MonitotingTests_Thirteen&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/qwerty/IdeaProjects/MonitotingTests_Thirteen/build",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qwerty\IdeaProjects\MonitotingTests_Thirteen\build" />
       <recent name="C:\Users\qwerty\IdeaProjects\MonitotingTests_Thirteen" />
       <recent name="C:\Users\qwerty\IdeaProjects\MonitotingTests_Thirteen\src\test\java\aq\guru\jenkins" />
     </key>
@@ -91,7 +89,7 @@
       <recent name="C:\Users\qwerty\IdeaProjects\Jenkins1_Eleven\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JenkinsTest">
+  <component name="RunManager" selected="Gradle.Jenkins1_Eleven [allureServe]">
     <configuration name="Jenkins1_Eleven [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,9 +214,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Jenkins1_Eleven [allureServe]" />
         <item itemvalue="Gradle.JenkinsTest" />
         <item itemvalue="Gradle.JenkinsTest.successfulTest" />
-        <item itemvalue="Gradle.Jenkins1_Eleven [allureServe]" />
         <item itemvalue="Gradle.Jenkins1_Eleven [allureReport]" />
         <item itemvalue="Gradle.Jenkins1_Eleven [downloadAllure]" />
       </list>
@@ -415,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657349074875</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="test">
+      <created>1657643095367</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1657643095368</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,16 +437,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/aq/guru/jenkins/TestBase.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

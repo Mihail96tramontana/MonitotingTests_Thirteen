@@ -29,7 +29,7 @@ public class TestBase {
         Configuration.remote = url; //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = System.getProperty("url"); //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub"; //скрипт для удалённого запуска на Selenoid
-        Configuration.browser = System.getProperty("browser");
+        Configuration.browser = System.getProperty("browser", "CHROME");
         Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
         browserSize = System.getProperty("browserSize");
 
