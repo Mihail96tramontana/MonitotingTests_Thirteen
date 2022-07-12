@@ -25,13 +25,13 @@ public class TestBase {
 
         SelenideLogger.addListener("allure", new AllureSelenide()); //скрипт для древовидной структуры шагов в Allure Report
 
-        url = "https://" + config.login() + ":" + config.password() + "@" + System.getProperty("url");
+        url = "https://" + config.login() + ":" + config.password() + "@" + System.getProperty("url", "selenoid.autotests.cloud/wd/hub");
         Configuration.remote = url; //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = System.getProperty("url"); //скрипт для удалённого запуска на Selenoid
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub"; //скрипт для удалённого запуска на Selenoid
         Configuration.browser = System.getProperty("browser");
-        Configuration.browserVersion = System.getProperty("browserVersion");
-        browserSize = System.getProperty(browserSize);
+        Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
+        browserSize = System.getProperty("browserSize");
 
 
 
